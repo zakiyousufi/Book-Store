@@ -34,19 +34,18 @@ Follow these
   ## 📋Setup
 
 - Run git clone on this project at the desired directory:
-  ```
+
   git clone https: CLONE URL (You can get the URL from: [(github.com/zakiyousufi/Book-Store)](github.com/zakiyousufi/Book-Store) Click on the code button at the top of the repo (it has green color) then select the HTTPS or ssh key and copy the URL)
-  ```
   ```
   cd Book-store
   ```
-[x]- Install dependencies
+✅Install dependencies
 
   ```
   npm install
   ```
 
-[x]- Start React Dev Server
+✅Start React Dev Server
   ```
   npm start
   ```
