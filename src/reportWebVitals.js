@@ -8,6 +8,6 @@ const reportWebVitals = onPerfEntry => {
       getTTFB(onPerfEntry);
     });
   }
-};
+};/* eslint-disable */
 
 export default reportWebVitals;
