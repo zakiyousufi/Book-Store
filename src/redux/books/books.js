@@ -16,3 +16,13 @@ export default function bookReducer(state = books, action) {
     }
   }
 }
+
+export const AddBook = (book) => ({
+  type: ADD_BOOK,
+  book,
+});
+
+export const RemoveBook = (id) => ({
+  type: REMOVE_BOOK,
+  id,
+});
