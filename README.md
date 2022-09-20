@@ -1,5 +1,4 @@
 # Project Name
-
 ### Book Store
 
 # 📜 Description the project.
@@ -19,7 +18,7 @@ a web site that has all information about a Book Store
 - webpak
 
 ### 🖥️LIVE DEMO
-You can use Leaderboard by clicking [here]()
+You can use Book-store Website by clicking [here]()
 
 ## 📑 Authors
 
