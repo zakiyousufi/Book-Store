@@ -34,7 +34,7 @@ Follow these
 
 - Run git clone on this project at the desired directory:
 
-  git clone https: CLONE URL (You can get the URL from: [(github.com/zakiyousufi/Book-Store)](github.com/zakiyousufi/Book-Store) Click on the code button at the top of the repo (it has green color) then select the HTTPS or ssh key and copy the URL)
+  git clone https: CLONE URL (You can get the URL from: [(http//github.com/zakiyousufi/Book-Store)](github.com/zakiyousufi/Book-Store) Click on the code button at the top of the repo (it has green color) then select the HTTPS or ssh key and copy the URL)
   ```
   cd Book-store
   ```
