@@ -1,18 +1,21 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Books from './components/Books';
-import Categories from './components/Categories';
-import Navbar from './components/Navbar';
+/* eslint-disable react/jsx-indent */
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { Provider } from 'react-redux';
+import BooksContainer from './Components/BookContainer';
+import CategoriesContainer from './Components/CategoriesContainer';
+// import store from './redux/configureStore';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
-    </>
+    <Router>
+        <div>
+          <Routes>
+            <Route path="/" element={<BooksContainer />} />
+            <Route path="/categories" element={<CategoriesContainer />} />
+          </Routes>
+        </div>
+    </Router>
   );
 }
 
